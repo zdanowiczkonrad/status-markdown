@@ -2,7 +2,7 @@
 
 Beautiful status page with just text.
 
-![Screenshot](static/status_lead.png)
+![Screenshot](static/status_lead_nopad.png)
 
 
 ## Usage
