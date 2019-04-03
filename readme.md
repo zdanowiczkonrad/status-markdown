@@ -1,6 +1,9 @@
 # Minimalistic and zero-code status pages
 
-Use your favorite markdown and generate a beautiful and simple status page without any coding.
+Beautiful status page with just text.
+
+![Screenshot](static/status_lead.png)
+
 
 ## Usage
 
