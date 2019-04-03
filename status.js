@@ -98,7 +98,7 @@ const Status = raw => {
     render = () => {
         const lines = raw.split('\n');
         console.log(overallProgress, progressReported);
-        return `<link rel="stylesheet" href="./style.css"><div class="status_container">${lines.map(renderLine).join('\n')}
+        return `<link rel="stylesheet" href="https://raw.githack.com/zdanowiczkonrad/status-markdown/master/style.css"><div class="status_container">${lines.map(renderLine).join('\n')}
         <div class="overall_progress" style="width:${Math.round(overallProgress/progressReported*100)}%">${Math.round(overallProgress/progressReported*100)}%</div>
         </div>`;
 
