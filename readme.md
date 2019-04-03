@@ -42,9 +42,9 @@ Enforce 2FA for external users [27%]
 (rest of the text)
 ```
 
-### 3. Open the file in the browser*
+### 3. Open the file in the browser
 
-[[https://github.com/zdanowiczkonrad/status-markdown/blob/master/static/demo.png|alt=Demo]]
+![Screenshot](static/demo.png)
 
 ### 4. Modification
 
@@ -52,5 +52,6 @@ Just change the text in the HTML and refresh the page! Magic!
 
 ## Syntax documentation
 
-
-TBD
+```
+Work in progress
+```
