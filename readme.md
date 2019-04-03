@@ -1,6 +1,16 @@
 # Minimalistic and zero-code status pages
 
-Beautiful status page with just text.
+Turn text:
+
+```
+Status
+
+Code coverage [78%] 
+Tests passed [96%]
+Sprint progress [24%]
+```
+
+Into beautiful dashboard.
 
 ![Screenshot](static/status_lead_nopad.png)
 
