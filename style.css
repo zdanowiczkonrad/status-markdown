@@ -1,0 +1,139 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+    color:black;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;   
+
+}
+
+.status_container {
+    display: block;
+    margin:0 auto;
+    background: white;
+    padding: 40px;
+}
+    .status_line {
+        display: block;
+        display: flex;
+        width: 80%;
+        margin-bottom: 20px;
+        flex-wrap:wrap;
+    }
+    .status_header {
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+
+    .status_progress_text {
+        width: 180px;
+    }
+.progress_bar {
+    width:  200px;
+    border:  2px #ccc solid;
+    display: inline-block;
+    position: relative;
+    color:#777;
+    font-weight: 500;
+    border-radius: 20px;
+    text-align: left;
+    text-indent: 220px;
+}
+
+.progress_bar_complete {
+    background:greenyellow;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    transition: width 0.3s ease;
+}
+
+span.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border: 2px #aaa solid;
+}
+
+span.checkbox_tick:after {
+    content:  "";
+    background:#444;
+    width:  2px;
+    height: 16px;
+    position: absolute;
+    display: block;
+    top: 2px;
+    left: 9px;
+    transform: rotate(45deg);
+}
+
+span.checkbox_tick:before {
+    content: "";
+    background: #444;
+    width: 16px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 9px;
+    transform: rotate(45deg);
+}
+
+a {
+    color: rgb(135, 163, 204);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.overall_progress {
+    background: rgba(255,255,255,0.05);
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+
+    color: rgba(255,255,255,0.2);
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+
+    text-indent: 10px;
+    z-index: -1;    
+}
+
+.status_progress_details {
+    display: block;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 180px;
+    border-radius: 10px;
+    padding: 4px;
+
+}
+
+.status_progress_details:hover {
+    background: white;
+    color: black;
+
+}
