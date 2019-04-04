@@ -10,7 +10,7 @@ Tests passed [96%]
 Sprint progress [24%]
 ```
 
-Into beautiful dashboard.
+Into a beautiful dashboard:
 
 ![Screenshot](static/status_lead_nopad.png)
 
