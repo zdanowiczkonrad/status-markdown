@@ -1,6 +1,6 @@
 # Minimalistic and zero-code status pages
 
-Turn text:
+Transform a text status:
 
 ```
 Status
